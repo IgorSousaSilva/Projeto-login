@@ -6,3 +6,52 @@
     
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cor02);
+    background-image: linear-gradient(to bottom, black, #5f2c82);
+    background-attachment: fixed;
+    
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+}
+#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.605);
+}
+
+#login > #imagem {
+    background-color: var(--cor02);
+    background-image: url(../imagens/patern.jpg);
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+#login > #formulario {
+    padding: 10px;
+    display: block;
+}
+
