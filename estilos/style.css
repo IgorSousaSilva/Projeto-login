@@ -64,3 +64,48 @@ p {
     font-size: 0.8em;
 }
 
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor01);
+    color: white;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #1a4b4a;
+}
+
+form > .botao {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    background-color: white;
+    color: #1a4b4a;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+form > .botao:hover {
+    background-color: #4de7e2;
+}
+
+div .campo {
+    background-color: #5f2c82;
+    display: block;
+    margin: 5px 0px;
+}
+
+div > label {
+    display: none;
+}
+
