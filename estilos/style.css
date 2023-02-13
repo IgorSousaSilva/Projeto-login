@@ -35,7 +35,7 @@ main {
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    height: 500px;
+    height: 550px;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
@@ -103,9 +103,33 @@ div .campo {
     background-color: #5f2c82;
     display: block;
     margin: 5px 0px;
+    border-radius: 8px;
+    height: 44px;
+
 }
 
 div > label {
     display: none;
 }
+
+    .campo > span {
+    
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+    border-radius: 8px;
+}
+.campo > input {
+    background-color: #49a09d;
+    font-size: 1em;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    width: calc(100% - 44px);
+    transform: translate(40px, -40px);
+}
+
+
+
 
